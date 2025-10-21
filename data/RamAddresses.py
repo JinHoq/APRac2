@@ -77,6 +77,22 @@ class Addresses:
             self.highlighted_planets: int = 0x1A7BE8
             self.wupash_complete_flag: int = 0x1A7C01
 
+            # Cheats Toggles
+            # self.ratchet_has_a_big_head: int = 0x1A7A41
+            # self.ratchet_in_a_tux: int = 0x1A7A4A
+            # self.clank_has_a_large_noggin int = 0x1A7A43
+            # self.levels_are_mirrored: int = 0x1A7A44
+            # self.actors_have_oversized_craniums: int = 0x1A7A40
+            # self.ratchet_shows_his_funny_side: int = 0x1A7A49
+            # self.enemies_have_massive_domes: int = 0x1A7A47
+            # self.beach_boy: int = 0x1A7A4B
+            # self.snow_dude: int = 0x1A7A42
+
+            # Settings to affect for traps
+            # self.camera_vertical_control: int = 0x1A7BA4
+            # self.camera_horizontal_control: int = 0x1A7BA8
+            # self.camera_speed: int = 0x1A7BAC
+
             # Pause state is at 0x1A8F00 on all planets except for Oozla where it's at 0x1A8F40.
             self.pause_state: int = 0x1A8F00
             self.oozla_pause_state: int = 0x1A8F40
