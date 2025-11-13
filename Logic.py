@@ -729,13 +729,11 @@ def yeedil_defeat_mutated_protopet_rule(state: CollectionState, player: int) -> 
                 and can_swingshot(state, player)
                 and can_infiltrate(state, player)
                 and can_dynamo(state, player)
-                and can_improved_jump(state, player))
 
     return (can_hypnotize(state, player)
             and can_swingshot(state, player)
             and can_infiltrate(state, player)
             and can_dynamo(state, player)
-            and can_improved_jump(state, player)
             and can_electrolyze(state, player))
 
 
@@ -764,7 +762,6 @@ def yeedil_tractor_pillar_pb_rule(state: CollectionState, player: int) -> bool:
                 and can_swingshot(state, player)
                 and can_infiltrate(state, player)
                 and can_dynamo(state, player)
-                and can_improved_jump(state, player)
                 and can_tractor(state, player)
                 and can_grind(state, player))
 
@@ -772,7 +769,6 @@ def yeedil_tractor_pillar_pb_rule(state: CollectionState, player: int) -> bool:
             and can_swingshot(state, player)
             and can_infiltrate(state, player)
             and can_dynamo(state, player)
-            and can_improved_jump(state, player)
             and can_electrolyze(state, player)
             and can_tractor(state, player)
             and can_grind(state, player))
